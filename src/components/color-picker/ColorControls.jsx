@@ -4,16 +4,16 @@ import PropTypes from 'prop-types';
 const ColorControls = ({ colors, onColorChange }) => {
   return (
     <>
-    {colors.map((color) => (
-      <button
-      key={color}
-      style={{ backgroundColor: color }}
-      onClick={() => onColorChange(color)}
-      >
-        {color}
+      {colors.map((color) => (
+        <button
+          key={color}
+          style={{ backgroundColor: color }}
+          onClick={() => onColorChange(color)}
+        >
+          {color}
         </button>
-    ))}
-    <>
+      ))}
+    </>
   );
 };
 

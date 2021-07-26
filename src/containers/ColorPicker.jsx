@@ -12,7 +12,7 @@ export default class ColorPicker extends Component {
   };
    
   render() {
-    const colors = ['red'];
+    const colors = ['red', 'yellow', 'blue', 'pink', 'purple', 'green'];
     const { selectedColor } = this.state;
 
     return (

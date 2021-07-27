@@ -3,7 +3,7 @@ import ColorDisplay from '../components/color-picker/ColorDisplay';
 
 export default class RandomColor extends Component {
   state = {
-    selectedColor: 'pink',
+    selectedColor: 'Fuchsia',
     sameColor: false
   };
 

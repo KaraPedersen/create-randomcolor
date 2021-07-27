@@ -12,7 +12,8 @@ export default class RandomColor extends Component {
     this.setState({ sameColor: false });
     
     //get random color
-    const colors = ['red', 'yellow', 'blue', 'pink', 'purple', 'green'];
+    // eslint-disable-next-line max-len
+    const colors = ['DarkMagenta', 'DarkOrchid', 'DeepPink', 'Fuchsia', 'Indigo', 'Lavender', 'LemonChiffon'];
     const color = colors[Math.floor(Math.random() * colors.length)];
     
     if(this.state.selectedColor === color) {
